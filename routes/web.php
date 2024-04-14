@@ -15,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/content', [ContentController::class, 'index'])->name('contenido');
+
+Route::get('/detalles', [ContentController::class, 'detalles'])->name('detalles');

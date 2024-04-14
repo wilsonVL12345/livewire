@@ -12,4 +12,8 @@ class ContentController extends Controller
     {
         return view('post.list');
     }
+    public function detalles()
+    {
+        return view('post.listardetalle');
+    }
 }

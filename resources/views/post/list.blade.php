@@ -6,6 +6,10 @@
             <livewire:Posts.components.PostAdd />
 
         </div>
+        <div class="col-md-8">
+            <livewire:Posts.components.Posts />
+
+        </div>
 
     </div>
 @endsection
